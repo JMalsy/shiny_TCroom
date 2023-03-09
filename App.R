@@ -13,6 +13,7 @@ ui <- dashboardPage(
     h4("Delete Notifications"),
     selectInput("delete_notification", "Select Notification to Delete:", choices = NULL),
     actionButton("delete_button", "Delete"),
+    br(),
     h4("Notifications:"),
     verbatimTextOutput("notification_text")
   ),
@@ -84,9 +85,4 @@ server <- function(input, output, session) {
   
 }
 
-shinyApp(ui, server)
-
-
-
-# Run the app
 shinyApp(ui=ui, server=server)

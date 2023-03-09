@@ -1,0 +1,13 @@
+name: shiny_TCroom
+title: shiny_TCroom
+username:
+account: advhh
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 8521936
+bundleId: 6935598
+url: https://advhh.shinyapps.io/shiny_TCroom/
+when: 1678354099.96363
+lastSyncTime: 1678354099.96364
+asMultiple: FALSE
+asStatic: FALSE
